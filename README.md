@@ -1,6 +1,6 @@
 # TODO with MASH
 
-A web based todo app using the mash stack - mauld axum sqlx htmx 
+A web based todo app using the mash stack - maud axum sqlx htmx 
 
 ## Screenshots
 
