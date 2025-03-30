@@ -1,0 +1,14 @@
+[jobs.check]
+command = ["cargo", "check"]
+need_stdout = true
+
+[jobs.test]
+command = ["cargo", "test"]
+need_stdout = true
+
+[jobs.run]
+command = ["cargo", "run"]
+need_stdout = true
+background = false
+on_change_strategy = "kill_then_restart"
+kill = ["kill", "-s", "INT"]
